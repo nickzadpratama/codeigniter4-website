@@ -1,0 +1,247 @@
+/* background */
+.bg {
+  background-image: url(/img/pattern/shattered-island.gif);
+  color: white;
+}
+.bg1 {
+  background-image: url(/img/pattern/email-pattern.png);
+}
+.bg2 {
+  background-image: url(/img/pattern/gaming-pattern.png);
+}
+.bg3 {
+  background-image: url(/img/pattern/design-tools.jpg);
+}
+
+/* about */
+.foto {
+  filter: grayscale(1) opacity(0.5);
+  transition: 0.3s;
+}
+.foto:hover {
+  filter: grayscale(0) opacity(1);
+}
+
+/* judul */
+.judulPin {
+  color: rgb(255, 182, 182);
+  text-align: center;
+  text-shadow: 0 2px 1px black;
+}
+.judulGame {
+  color: #4d9963;
+  text-align: center;
+  text-shadow: 0 2px 1px black;
+}
+.judulSuit {
+  color: #af4a02;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 3px 2px black;
+}
+.judulGall {
+  color: #15efff;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 3px 2px black;
+  padding: 10px;
+}
+.judulTebak {
+  color: #ee0000;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 2px 1px black;
+}
+
+/* suit jawa */
+.gajah,
+.orang,
+.semut {
+  height: 300px;
+  position: relative;
+}
+.orang,
+.semut {
+  width: 154.3px;
+}
+.gajah {
+  width: 317px;
+  margin-right: 125px;
+}
+.orang {
+  margin-left: 125px;
+}
+.semut {
+  margin-right: 25px;
+}
+.suitPilih a:active img {
+  transform: scale(0.8);
+}
+.suitPilih a span {
+  font-style: algerian;
+  font-size: 30px;
+  color: salmon;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  display: block;
+  height: 300px;
+  position: absolute;
+  text-align: center;
+  line-height: 300px;
+  top: 0;
+  transition: 0.1s;
+  transform: scale(0);
+}
+.suitPilih a:hover span {
+  transform: scale(1);
+}
+.orang a span {
+  width: 123px;
+}
+.semut a span {
+  width: 143px;
+}
+.gajah a span {
+  width: 317px;
+}
+.ulang {
+  margin-top: 180px;
+}
+.ulang a {
+  font-size: 60px;
+  text-decoration: none;
+  margin-left: 5px;
+}
+.ulang a:hover span {
+  color: #0d6efd;
+}
+
+/* gallery */
+.layer {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+.icon {
+  padding-top: 30px;
+}
+.gallery:hover {
+  border: 2px solid skyblue;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+.desc {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+}
+.overlay {
+  position: fixed;
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  padding: 50px;
+  padding-top: 60px;
+  z-index: 999999;
+  text-align: center;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+.overlay:target {
+  height: auto;
+  width: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+.overlay img {
+  max-height: 100%;
+  width: auto;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+.close {
+  width: 60px;
+  height: 30px;
+  line-height: 23px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  border: 2px solid black;
+  position: absolute;
+  right: 47%;
+  top: 30px;
+}
+.close:hover {
+  background-color: red;
+}
+.close:active {
+  background-color: white;
+}
+.next,
+.prev {
+  font-size: 200px;
+  text-decoration: none;
+  color: white;
+}
+
+/* detail */
+.kembali {
+  color: coral;
+  padding: 1px;
+  border-radius: 3px;
+}
+.kembali:hover {
+  color: #fff;
+  background-color: #1e90ff;
+}
+
+/* contact */
+.contact {
+  position: absolute;
+  margin-left: 1220px;
+}
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #e2edff;
+}
+footer {
+  background-color: #e2edff;
+}
+footer a {
+  color: black;
+  font-weight: bold;
+}
+
+/* tebak angka */
+.kotak {
+  background-image: url(/img/pattern/colorful.png);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.tombol a:hover img {
+  transform: scale(1.1);
+}
+.tombol a:active img {
+  transform: scale(0.9);
+}
+
+/* detail */
+.detail {
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+.kembali {
+  text-decoration: none;
+}
