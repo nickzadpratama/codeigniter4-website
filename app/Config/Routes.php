@@ -37,7 +37,7 @@ $routes->get('/portfolio', 'Home::portfolio');
 $routes->get('/contact', 'Home::contact');
 $routes->get('/message', 'Home::message');
 
-$routes->get('/pin', 'Pin::index');
+$routes->get('/pin', 'pin::index');
 $routes->delete('/pin/delete/(:num)', 'pin::delete/$1');
 $routes->get('/pin/(:any)', 'pin::detail/$1');
 
